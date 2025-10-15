@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farcaster Snake Mini App</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #333;
+            color: white;
+            font-family: Arial, sans-serif;
+            overflow: hidden; /* Mencegah scroll saat bermain */
+        }
+        canvas {
+            border: 5px solid #00f;
+            background-color: #000;
+        }
+        #score {
+            margin-top: 10px;
+            font-size: 1.5em;
+        }
+        #instructions {
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>🐍 Farcaster Snake Game 🍎</h1>
+    <div id="score">Score: 0</div>
+    <canvas id="gameCanvas" width="400" height="400"></canvas>
+    <div id="instructions">Gunakan tombol panah (Arrow Keys) untuk bergerak! (Klik di sini jika tombol tidak merespons)</div>
+
+    <script src="snake.js"></script>
+</body>
+</html>

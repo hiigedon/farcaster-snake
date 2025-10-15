@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Farcaster Snake Game",
+  "homeUrl": "YOUR_DEPLOYMENT_URL",
+  "iconUrl": "YOUR_DEPLOYMENT_URL/images/icon.png",
+  "description": "Mainkan game ular klasik yang menyenangkan langsung di Farcaster!",
+  "primaryCategory": "games",
+  "tags": ["snake", "game", "classic", "arcade"]
+}
